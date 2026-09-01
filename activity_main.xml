@@ -1,0 +1,76 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F5F5F5">
+
+    <!-- 🔝 КНОПКА Мои уроки -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_screenshot"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        app:backgroundTint="#1976D2"
+        android:text="Скриншот"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="10dp"
+        android:letterSpacing="0.05"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="12dp"/>
+
+
+    <!-- 🔝 КНОПКА Мои уроки -->
+
+
+    <!-- 📋 СПИСОК -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_my_lessons"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:letterSpacing="0.05"
+        android:text="Мои уроки"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#1976D2"
+        app:cornerRadius="12dp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_bells"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"
+        android:letterSpacing="0.05"
+        android:text="Звонки"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:backgroundTint="#1976D2"
+        app:cornerRadius="12dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerLessons"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="12dp"
+        android:clipToPadding="false"/>
+
+    <!-- 🔻 КНОПКА ВЫХОД
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_exit"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        app:backgroundTint="#E0E0E0"
+        android:text="Выход"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#333333"
+        android:layout_margin="12dp"
+        android:letterSpacing="0.05"
+        app:cornerRadius="14dp"/> -->
+
+</LinearLayout>
